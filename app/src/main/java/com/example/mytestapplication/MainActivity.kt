@@ -19,7 +19,7 @@ class MainActivity : ComponentActivity() {
             MyTestApplicationTheme {
 
                 Surface(modifier = Modifier.fillMaxSize(), color = MaterialTheme.colorScheme.background) {
-                    ChanceScreen(chanceViewModel)
+                    BaseScreen(chanceViewModel)
 
                 }
             }
